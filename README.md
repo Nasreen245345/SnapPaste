@@ -1,12 +1,33 @@
-# React + Vite
+# PasteVault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PasteVault is a modern, minimal web application for creating, saving, and sharing text snippets similar to Pastebin. It allows users to view and edit pastes using a smooth React-based UI and Redux for state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+-  Create, delete and edit text snippets ("pastes")
+-  View existing pastes by unique ID
+-  Shareable URL for each paste
+-  Custom 404 page for invalid URLs
+-  Clean and responsive design using Tailwind CSS
+-  Built with React and Redux
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+- **Frontend:** React.js, Redux
+- **Styling:** Tailwind CSS
+- **Routing:** React Router
+- **State Management:** Redux Toolkit
+
+---
+
+##  Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/pastevault.git
+cd pastevault
